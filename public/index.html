@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function(){
+        $('#icon').click(function(){
+        $('ul').toggleClass('show')
+        });
+    });
+
+    </script>
+
+    <title>Assignment II</title>
+</head>
+<style>
+   
+</style>
+<body>
+
+<nav>
+    <label class="logo">SpicyFood</label>
+    <!-- <button class="btn1">Book a Table</button> -->
+    <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="#">Contact</a></li>
+ 
+    </ul>
+  
+    <label id="icon">
+        <i class="fas fa-bars"></i>
+    </label>
+</nav>
+<div class="c4">
+    <p class="quote">I Only Eat Spicy&#x1F525; Food&#127869;</p>
+</div>
+<div class="c3">
+    <ul>
+        <li><img width="230px" class="Menu" src="images/img1.jpg" alt=""><br>
+            <h4>Grilled Beef</h4>
+        </li>
+        <li><img width="200px" class="Menu" src="images/img2.jpg" alt="">
+            <h4>Beef Biryani</h4>
+        </li>
+        <li><img width="200px" class="Menu" src="images/img3 Roast Beef Kababs.jpg" alt="">
+            <h4>Roast Beef Kababs</h4>
+        </li>
+        <li><img width="200px" class="Menu" src="images/img4 zinger Burger.jpg" alt="">
+            <h4>Zinger Burger</h4>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>
